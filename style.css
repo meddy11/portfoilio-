@@ -1,0 +1,257 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	background-image: linear-gradient(to bottom,#0e28339e,#3d3f4159),url('./assets/img/pro1.jpg'); 
+
+}
+
+.header ul
+{
+	margin: 0;
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	font-family: 'Oswald', sans-serif;
+		
+	
+
+
+}
+header a
+{
+	background: #FCBC1C;
+	text-decoration: none;
+	padding: 10px 25px;
+	border-radius: 5px;
+	display: inline-block;
+	margin-top: 30px;
+	color: #fff;
+	position: fixed;
+
+}
+
+.banner
+{
+	background-color: black;
+	background-image: linear-gradient(to bottom,#0e28339e,#3d3f4159),url('./assets/img/pro1.jpg');
+	-webkit-background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	font-family: poppins;
+	height: 100vh;
+}
+.warpper
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.warpper h2
+{
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	text-shadow: 0 2px 0 rgba(0,0,0,0.5);
+	font-size: 60px;
+	font-family: 'Anton', sans-serif;
+}
+.warpper p
+{
+	color: #fff;
+	font-size: 18px;
+	margin: 0;
+	line-height: 35px;
+}
+.warpper a
+{
+	background: #FCBC1C;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 25px;
+	border-radius: 5px;
+	display: inline-block;
+	margin-top: 30px;
+	font-family: 'Oswald', sans-serif;	
+}
+.warpper span:before
+{
+	content: '';
+	animation: animate infinite 13s;
+	color: #FCBC1C;
+	font-family: 'Oswald', sans-serif;
+}
+@keyframes animate {
+
+	20%{
+		content: 'MIHINDOU-NZE';
+	}
+	40%{
+		content: 'Arsene Steed';
+	}
+	60%{
+		content: 'Developper';
+	}
+	80%{
+		content: 'Front-end';
+	}
+	100%{
+		content: 'Back-end';
+	}
+}
+
+
+/******************************A PROPOS***************** */
+
+#apropos
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* background-color: black; */
+	background-image: linear-gradient(to bottom,#1616199e,#151111),url('./assets/img/imgsite.jpg');
+	-webkit-background-size: cover; */
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh; 
+}
+img
+{
+	width: 350px;
+	margin-left: 5vw;
+	margin-top: 8vh;
+}
+.container{
+  width: 60%;
+  margin: 3em 4em;
+  color: white;
+}
+
+.container > h1{
+  font-family: 'Bebas Neue','Times New Roman', Times, serif;
+  font-size: 1.7em;
+  margin-bottom: 5px;
+}
+
+.bg-red{
+  width: 100px;
+  height: 10px;
+  background-color: #FCBC1C;
+}
+
+.container > p{
+  font-family: 'Lato','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.1em;
+}
+
+.container  strong{
+  color: #FCBC1C;
+}
+
+/* competence */
+#competence
+{
+	padding: 0;
+	display: flex;
+	font-family: sans-serif;
+	list-style: none;
+	background: #000;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+
+}
+.skills
+{
+	width: 600px;
+	margin: 60px auto;
+	color: white;
+}
+.skills li
+{
+	margin: 20px 0;
+}
+.bar
+{
+	background: #FCBC1C;
+	display: block;
+	height: 20px; 
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 0 10px #2887e7b3;
+}
+.bar span
+{
+	height: 20px;
+	float: left;
+	background: #2187e7;
+}
+.html
+{
+	width: 90%;
+	animation: html 3s;
+}
+.css
+{
+	width: 50%;
+	animation: css 3s;
+}
+.js
+{
+	width: 10%;
+	animation: js 3s;
+}
+.fig
+{
+	width: 30%;
+	animation: fig 3s;
+}
+@keyframes html
+{
+	0%
+	{
+		width: 0%;
+	}
+	100%
+	{
+		width: 90%;
+	}
+}
+@keyframes css
+{
+	0%
+	{
+		width: 0%;
+	}
+	100%
+	{
+		width: 50%;
+	}
+}
+@keyframes js
+{
+	0%
+	{
+		width: 0%;
+	}
+	100%
+	{
+		width: 10%;
+	}
+}
+@keyframes fig
+{
+	0%
+	{
+		width: 0%;
+	}
+	100%
+	{
+		width: 30%;
+	}
+}
+/* **********realisation************** */
